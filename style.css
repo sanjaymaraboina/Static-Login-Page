@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/bg.jpg");
+    padding: 20px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.webpage{
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 35px;
+    gap: 40px;
+    
+}
+.icon h2{
+    font-size: 42px;
+    color: rgb(244, 94, 8);
+}
+
+.menu a{
+    font-size: 18px;
+    color: white;
+}
+
+.btn{
+    color: rgb(250, 249, 247);
+    background-color: orange;
+    width: 120px;
+    height: 45px;
+    
+}
+
+.srch{
+    color: white;
+    background-color: transparent;
+    outline-color: rgb(244, 94, 8);
+    padding: 12px 35px;
+    border: solid rgb(244, 94, 8);
+    border-radius: 5px;
+
+} 
+.devop{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13% 20%;
+    gap: 35%;
+}
+.course{
+    width: 30%;
+    gap: 15px;
+
+}
+.course h2{
+    color: white;
+    font-size: 65px;
+}
+.course h1{
+    color: rgb(244, 94, 8);
+    font-size: 70px;
+}
+.course p{
+    color: white;
+    font-size: 25px;
+}
+.course button{
+    color: black;
+    background-color: rgb(244, 94, 8);
+    height: 40px;
+    width: 120px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.form{
+    width: 250px;
+    height: 350px;
+    background: transparent;
+    padding: 30px 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.form h2{
+    width: 230px;
+    height: 120px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(225, 100, 28);
+    font-size: 26px;
+    background-color: white;
+    border-radius: 10px;
+    gap: 15px;
+padding: 10px;
+
+    
+   
+}
+
+.form input{
+    width: 240px;
+    height: 50px;
+    background: transparent;
+    border-bottom: 1px solid rgb(225, 100, 28);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 90px;
+    background: rgb(225, 100, 28);
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+}
+
+.btnn a{
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+.form .link a{
+    color:  rgb(225, 100, 28);
+}
+.liw{
+    text-align: center;
+    color: white;
+}
+
+
+
